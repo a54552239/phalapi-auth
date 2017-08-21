@@ -1,5 +1,5 @@
 {
-    "name": "phalapi/auth",
+    "name": "phalapi2/auth",
     "description": "PhalApi 2.x 扩展类库 - Auth权限验证。",
     "keywords": [
         "phalapi", "phalapi-auth", "auth"
@@ -12,7 +12,7 @@
         {
             "name": "vilson",
             "email": "545522390@qq.com",
-            "homepage": "http://my.oschina.net/dogstar",
+            "homepage": "https://git.oschina.net/vilson/phalapi-auth.git",
             "role": "Developer"
         }
     ],
