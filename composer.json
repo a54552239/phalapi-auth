@@ -1,27 +1,33 @@
 {
-    "name": "phalapi2/auth",
-    "description": "PhalApi 2.x 扩展类库 - Auth权限验证。",
-    "keywords": [
-        "phalapi", "phalapi-auth", "auth"
-    ],
-    "license": "GPL-3.0+",
-    "homepage": "https://www.phalapi.net/",
-    "type": "library",
-    "authors": [
-        {
-            "name": "vilson",
-            "email": "545522390@qq.com",
-            "homepage": "https://git.oschina.net/vilson/phalapi-auth.git",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.3",
-        "phalapi/kernal": "2.0.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "PhalApi\\Auth\\": "src"
-        }
-    } 
+  "name": "phalapi2/auth",
+  "description": "PhalApi 2.x 扩展类库 - Auth权限验证。",
+  "keywords": [
+    "phalapi",
+    "phalapi-auth",
+    "auth"
+  ],
+  "license": "GPL-3.0+",
+  "homepage": "https://www.phalapi.net/",
+  "type": "library",
+  "authors": [
+    {
+      "name": "vilson",
+      "email": "545522390@qq.com",
+      "homepage": "https://git.oschina.net/vilson/phalapi-auth.git",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "phalapi/kernal": "2.0.*"
+  },
+  "require-dev": {
+    "php": ">=5.3.3",
+    "phalapi/kernal": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhalApi\\Auth\\": "src"
+    }
+  }
 }
